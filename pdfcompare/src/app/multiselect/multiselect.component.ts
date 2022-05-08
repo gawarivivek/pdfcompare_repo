@@ -88,6 +88,9 @@ export class MultiselectComponent implements OnInit {
   onCompare() {
     const url = this.router.serializeUrl(this.router.createUrlTree(['/Single_select_Component']));
     window.open(url, '_blank');
+    window.open(url, '_blank');
+    window.open(url, '_blank');
+    window.open(url, '_blank');
   }
 
   
